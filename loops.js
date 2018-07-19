@@ -10,6 +10,7 @@ function forLoop(array) {
   return array
 }
 
+
 function whileLoop(n) {
 let countdown = n
 
@@ -18,6 +19,7 @@ while (countdown > 0) {
 }
 return ('done')
 }
+
 
 function doWhileLoop(array) {
 	function maybeTrue() {
