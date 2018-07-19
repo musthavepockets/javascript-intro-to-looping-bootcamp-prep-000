@@ -26,7 +26,7 @@ function doWhileLoop(array) {
   return Math.random() >= 0.5
 }
 do {
-  array.shift
+  array.shift()
 }
 while (array.length > 0 && maybeTrue())
 }
